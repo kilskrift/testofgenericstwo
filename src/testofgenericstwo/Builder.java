@@ -3,17 +3,25 @@ package testofgenericstwo;
 public class Builder {
 	boolean b_flag;
 
+	public boolean get_flag() {
+		return b_flag;
+	}
+	
+	public void set_flag( boolean new_flag ) {
+		b_flag = new_flag;
+	}
+			
 	public Builder() {
 		b_flag = false;
 	}
-	
-	public Superclass<?> return_class() {
+
+	public Superclass return_class() {
 
 		if( !b_flag ) {
-			return (A_class) new Superclass<A_class>();
+			return new A_class();
 		}
 		else {
-			return (B_class) new Superclass<B_class>();
+			return new B_class();
 		}
 	}
 }

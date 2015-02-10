@@ -1,8 +1,8 @@
 package testofgenericstwo;
 
-public class Superclass<T> {
-
-	public Superclass() {
-		System.out.println("new Generic_class");
+public class Superclass {
+	
+	public Superclass() {				
+		System.out.print("new Superclass: ");
 	}
 }
