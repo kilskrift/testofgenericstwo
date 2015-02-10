@@ -6,13 +6,13 @@ public class Builder {
 		b_flag = false;
 	}
 	
-	public <T extends Generic_class<T>> T return_class() {
+	public Superclass return_class() {
 
 		if( !b_flag ) {
-			return (T) new A_class();
+			return new A_class();
 		}
 		else {
-			return (T) new B_class();
+			return new B_class();
 		}
 	}
 }
