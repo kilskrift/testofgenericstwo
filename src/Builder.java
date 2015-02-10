@@ -7,6 +7,12 @@ public class Builder {
 	}
 	
 	public A_class return_class() {
-		return new A_class();
+
+		if( !b_flag ) {
+			return new A_class();
+		}
+		else {
+			return new A_class();
+		}
 	}
 }
