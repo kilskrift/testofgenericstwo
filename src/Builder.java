@@ -6,13 +6,13 @@ public class Builder {
 		b_flag = false;
 	}
 	
-	public A_class return_class() {
+	public <T extends A_class> T return_class() {
 
 		if( !b_flag ) {
-			return new A_class();
+			return (T) new A_class();
 		}
 		else {
-			return new B_class();
+			return (T) new B_class();
 		}
 	}
 }
