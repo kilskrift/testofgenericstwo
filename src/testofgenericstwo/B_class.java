@@ -1,3 +1,4 @@
+package testofgenericstwo;
 
 public class B_class extends Superclass<B_class> {
 

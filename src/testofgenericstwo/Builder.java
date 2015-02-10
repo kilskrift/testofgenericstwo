@@ -1,3 +1,5 @@
+package testofgenericstwo;
+
 public class Builder {
 	boolean b_flag;
 

@@ -1,3 +1,4 @@
+package testofgenericstwo;
 
 public class Superclass<T> {
 
