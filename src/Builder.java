@@ -1,4 +1,3 @@
-
 public class Builder {
 	boolean b_flag;
 
@@ -6,13 +5,13 @@ public class Builder {
 		b_flag = false;
 	}
 	
-	public Superclass return_class() {
+	public Superclass<?> return_class() {
 
 		if( !b_flag ) {
-			return new A_class();
+			return (A_class) new Superclass<A_class>();
 		}
 		else {
-			return new B_class();
+			return (B_class) new Superclass<B_class>();
 		}
 	}
 }
