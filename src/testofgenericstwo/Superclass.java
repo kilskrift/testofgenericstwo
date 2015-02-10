@@ -1,8 +1,5 @@
 package testofgenericstwo;
 
-public class Superclass {
+public interface Superclass {
 	
-	public Superclass() {				
-		System.out.print("new Superclass: ");
-	}
 }

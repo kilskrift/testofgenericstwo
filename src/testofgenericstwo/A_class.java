@@ -1,6 +1,6 @@
 package testofgenericstwo;
 
-public class A_class extends Superclass {
+public class A_class implements Superclass {
 	
 	public A_class() {
 		super();
