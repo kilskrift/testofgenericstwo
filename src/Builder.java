@@ -12,7 +12,7 @@ public class Builder {
 			return new A_class();
 		}
 		else {
-			return new A_class();
+			return new B_class();
 		}
 	}
 }
